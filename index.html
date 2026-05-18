@@ -42,7 +42,7 @@
          </div>
             
             <div class="home-img">
-                <img src="pp.png" alt="Image">
+                <img src="pp.jpeg" alt="Image">
             </div>
     </section>
 
@@ -140,7 +140,7 @@
             <div class="project-box">
                 <div class="project-info">
             
-                    <a href="https://vehicle-advisor-ai.streamlit.app/" target="_blank">
+                    <a href="https://vehicle-ai.streamlit.app/" target="_blank">
                        <h4>Machine Learning</h4> 
                     </a>
                     <p>I as a core team member along with other team members developed an AI BASED VEHICLE RECOMMENDATION SYSTEM, which outputs the vehicles, it can be 2 or 4 wheeler based vehicle on the basis of the user's credentials(age and salary).</p>
@@ -208,23 +208,66 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
+        <form id="contact-form">
+
             <div class="input-group">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email">
+
+                <div class="input-box">
+
+                    <input
+                    type="text"
+                    name="from_name"
+                    placeholder="Full Name"
+                    required
+                    >
+
+                <input
+                    type="email"
+                    name="from_email"
+                    placeholder="Email"
+                    required
+                >
+
             </div>
 
             <div class="input-box">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Subject">
-                </div>
+
+                <input
+                    type="number"
+                    name="phone"
+                    placeholder="Phone Number"
+                    required
+                >
+
+                <input
+                    type="text"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                >
+
             </div>
 
-            <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" class="btn">
+        </div>
+
+        <div class="input-group-2">
+
+            <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <input
+                type="submit"
+                value="Send Message"
+                class="btn"
+            >
+
             </div>
+
         </form>
     </section>
 
@@ -261,6 +304,8 @@
             © Mohammed Sajid Ahmed | All Rights Reserved
         </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
     <script src="script.js"></script>
 </body>
 </html>
