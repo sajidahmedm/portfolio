@@ -1,0 +1,59 @@
+ <!-- <div class="input-group">
+>>>>>>> fdecb23 (updated portfolio)
+
+                <div class="input-box">
+
+                    <input
+                    type="text"
+                    name="from_name"
+                    placeholder="Full Name"
+                    required
+                    >
+
+                <input
+                    type="email"
+                    name="from_email"
+                    placeholder="Email"
+                    required
+                >
+
+            </div>
+
+            <div class="input-box">
+
+                <input
+                    type="number"
+                    name="phone"
+                    placeholder="Phone Number"
+                    required
+                >
+
+                <input
+                    type="text"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                >
+
+            </div>
+
+        </div>
+
+        <div class="input-group-2">
+
+            <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <input
+                type="submit"
+                value="Send Message"
+                class="btn"
+<<<<<<< HEAD
+            >
+=======
+            > -->
